@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="./Assets/style.css">
+</head>
+<body>
+<header class="container">
+  <h1 class="title is-size-1">Weather Dashboard</h1>
+  <h2 class="title is-size-4">
+    5-Day Weather Forecast
+  </h2>
+</header>
+
+<main class="container">
+  <section class="search-container">
+    <form id="search-form">
+      <div class="field">
+        <label class="label" for="city-input">Enter City Name:</label>
+        <div class="control">
+          <input class="input" type="text" id="city-input" name="city" required>
+        </div>
+      </div>
+      <div class="control">
+        <button class="button" type="submit">Search</button>
+      </div>
+    </form>
+    <div id="search-history"></div>
+    <button class="button" id="clear-history">Clear History</button>
+  </section>
+
+  <section class="weather-container">
+    <div id="current-weather"></div>
+    <div id="forecast"></div>
+  </section>
+</main>
+
+<script src="./Assets/script.js"></script>
+</body>
+</html>
