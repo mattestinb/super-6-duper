@@ -1,4 +1,4 @@
-# Work-Day Planner
+# 5-Day Weather Dashboard
 
 [//]: # (  [![License: None]&#40;https://img.shields.io/badge/license-Unlicense-blue.svg&#41;]&#40;http://unlicense.org/&#41;)
 ## Table of Contents
